@@ -3,7 +3,7 @@ import "./App.css";
 import Tweet from "./Components/Tweet";
 // import twitterLogo from "./twitter.svg
 import twitterLogo from "./icons8-twitter.svg";
-import sentiment from "sentiment";
+// import sentiment from "sentiment";
 import Sentiment from "sentiment";
 
 function App() {
