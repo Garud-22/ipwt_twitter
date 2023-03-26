@@ -1,0 +1,36 @@
+.tweet {
+  margin: 75px auto;
+  padding: 20px;
+  /* border: 1px solid white; */
+  height: 240px;
+  width: 1100px;
+  border-radius: 30px;
+  background-color: #1da1f2;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: scale(0.5);
+}
+
+.tweet:nth-child(1) {
+  transition-delay: 0s;
+}
+.tweet:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.tweet:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.tweet:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.tweet:nth-child(5) {
+  transition-delay: 0.4s;
+}
+.tweet:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+.show {
+  opacity: 1;
+  transform: scale(1);
+}

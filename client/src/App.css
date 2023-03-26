@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"); /* Use Open Sans font for heading element */
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  font-size: 48px;
+  margin: 60px auto;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  width: 1100px;
+  /* border: 1px solid white; */
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.twitter-logo {
+  width: 50px;
+  margin-left: 10px;
+  /* border: 1px solid white; */
+  animation: logo-animation 1.25s ease-out forwards;
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(360deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* button {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family: "Inconsolata", monospace;
+  font-size: 48px;
+  border-radius: 20px;
+  width: 250px;
+  background-color: white;
+}
+
+button:hover{
+  pointer
+} */
+
+button {
+  display: block;
+  margin: auto;
+  background-color: #1da1f2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Inconsolata", monospace;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  background-color: #0c85d0;
+}
+
+.hidden {
+  display: none;
+}
