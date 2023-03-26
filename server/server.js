@@ -19,7 +19,7 @@ const {
 
 //Firebase cionfiguration
 const firebaseConfig = {
-  apiKey: "AIzaSyBHm1cqeyKpZmYj5T74MOpChAqC8n8pSo8",
+  apiKey: process.env.APi_KEY,
   authDomain: "ipwt-twitter.firebaseapp.com",
   projectId: "ipwt-twitter",
   storageBucket: "ipwt-twitter.appspot.com",
