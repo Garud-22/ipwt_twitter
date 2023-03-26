@@ -19,15 +19,15 @@ const {
 
 //Firebase cionfiguration
 const firebaseConfig = {
-  apiKey: process.env.APi_KEY,
-  authDomain: "ipwt-twitter.firebaseapp.com",
-  projectId: "ipwt-twitter",
-  storageBucket: "ipwt-twitter.appspot.com",
-  messagingSenderId: "1056384516678",
-  appId: "1:1056384516678:web:afef0e92b0280aae38c047",
-  measurementId: "G-KWJC2WBV3E"
+  apiKey: process.env.API_KEY,
+  authDomain: "ipwt-twitter-project.firebaseapp.com",
+  projectId: "ipwt-twitter-project",
+  storageBucket: "ipwt-twitter-project.appspot.com",
+  messagingSenderId: "241236019879",
+  appId: "1:241236019879:web:acb1d0f7f2852778dbe982",
+  measurementId: "G-7PZ55VVB6Y"
 };
-//forebase initilaisation
+//firebase initilaisation
 const fire_app = firebase.initializeApp(firebaseConfig);
 const db = getFirestore(fire_app);
 const tweets = collection(db, "tweets");
